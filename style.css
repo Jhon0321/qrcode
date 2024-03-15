@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('caminho/para/o/arquivo/da/fonte/Outfit.woff2') format('woff2'),
+         url('caminho/para/o/arquivo/da/fonte/Outfit.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Outfit', sans-serif;
+    
+    background-color: #d5e1ef;
+}
+p{
+    font-size: 15px;
+    padding: 10px;
+   
+}
+h1{
+    padding: 4px;
+    font-size: 16px;
+}
+img{
+    margin-top: 16px;
+    border-radius: 5px;
+    height: 300px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.129);
+}
+div{
+    background-color: white;
+    border-radius: 10px;
+    min-height: 500px;
+    width: 330px;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.129);
+}
